@@ -1,0 +1,188 @@
+/* #region font electrolize */
+.electrolize-regular {
+    font-family: "Electrolize", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* #endregion */
+
+/* #region font lato  */
+
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.lato-thin-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.lato-light-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.lato-bold-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.lato-black-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+/* #endregion */
+
+/* #region root */
+:root {
+    --main:rgb(6, 57, 108);
+    --acc: white;
+}
+/* #endregion */
+
+/* #region body */
+body{
+    font-family: "Electrolize";
+    margin: 0px;
+    padding: 0px;
+}
+/* #endregion */
+
+/* #region header */
+
+.headercontainer {
+    height: 100vh;
+}
+
+.headerbackground {
+    background: linear-gradient(180deg, rgba(6, 57, 108, 0.6), rgb(6, 57, 108, 0.6)), url(media/header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titolo {
+    color: var(--acc);
+}
+
+/* #endregion */
+
+/* #region navbar */
+.customNavbar{
+background-color: var(--main);
+}
+
+.iconanav{
+    height: 60px;
+    margin-left: 3vw;
+
+}
+
+.loremnav{
+    border-left: 2px solid var(--acc);
+}
+
+.links1{
+    border-left: 2px solid var(--acc);
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+/* #endregion */
+
+/* #region section1 */
+
+.section1{
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
+
+.testoparagrafo{
+    font-family: "Lato";
+    color: gray;
+}
+
+.titolocards1{
+    font-size: 25px;
+    font-weight: bolder ;
+    font-family: "Lato";
+    color: var(--main);
+}
+
+
+
+.testocards{
+    font-size: 15px;
+    font-weight: bold ;
+    font-family: "Lato";
+}
+
+/* #endregion */
+
+/* #region header2 */
+
+.header2{
+    height: 80vh;
+    background: linear-gradient(180deg, rgba(6, 57, 108, 0.6), rgb(6, 57, 108, 0.6)), url(media/power-plant-4712830_1280.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titolo2{
+font-size: 80px;
+color: var(--acc);
+padding-top: 100px;
+}
+
+.grosso{
+    font-size: 50px;
+}
+
+.grasso{
+    font-size: 18px;
+    font-family: "Lato";
+    font-weight: bold;
+}
+
+
+/* #endregion */
+
