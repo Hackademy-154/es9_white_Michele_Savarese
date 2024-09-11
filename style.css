@@ -186,3 +186,44 @@ padding-top: 100px;
 
 /* #endregion */
 
+/* #region section 2 */
+
+.rowsection2{
+    position: relative;
+}
+
+.section2-1{
+    height: 80%;
+    width: 45%;
+    background: var(--main);
+    border: 4px solid var(--acc);
+    position: absolute;
+    top: -100px;
+    left: 100px;
+}
+
+.section2-2{
+    height: 80%;
+    width: 45%;
+    background: var(--acc);
+    border: 2px solid red;
+    position: absolute;
+    left: 720px;
+}
+
+
+.paragrafocards{
+padding-left: 50px;
+padding-top: 40px;
+padding-right: 70px;
+color: var(--acc);
+}
+
+.imaginepannelli{
+    width: 60%;
+    height: 60%;
+}
+
+/* #endregion */
+
+
