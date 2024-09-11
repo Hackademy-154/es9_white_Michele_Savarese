@@ -107,13 +107,13 @@ body{
 
 /* #region navbar */
 .customNavbar{
-background-color: var(--main);
+    background-color: var(--main);
 }
 
 .iconanav{
     height: 60px;
     margin-left: 3vw;
-
+    
 }
 
 .loremnav{
@@ -168,9 +168,9 @@ background-color: var(--main);
 }
 
 .titolo2{
-font-size: 80px;
-color: var(--acc);
-padding-top: 100px;
+    font-size: 80px;
+    color: var(--acc);
+    padding-top: 100px;
 }
 
 .grosso{
@@ -206,18 +206,31 @@ padding-top: 100px;
     height: 80%;
     width: 45%;
     background: var(--acc);
-    border: 2px solid red;
     position: absolute;
     left: 720px;
 }
 
 
 .paragrafocards{
-padding-left: 50px;
-padding-top: 40px;
-padding-right: 70px;
-color: var(--acc);
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-right: 70px;
+    color: var(--acc);
 }
+
+.paragrafocards2{
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-right: 70px;
+    color: var(--main);
+}
+
+.altroparagrafocards2{
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-right: 70px;
+}
+
 
 .imaginepannelli{
     width: 60%;
@@ -225,5 +238,26 @@ color: var(--acc);
 }
 
 /* #endregion */
+
+/* #region section 3- botton */
+.containerbotton{
+height: 80vh;
+}
+
+.bottone{
+    background-color: var(--main);
+    width: 20vw;
+}
+
+.h3bottone{
+color: white
+}
+
+/* .justcolormain{
+    color: var(--main);
+} */
+
+/* #endregion */
+
 
 
