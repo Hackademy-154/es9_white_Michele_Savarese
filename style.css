@@ -303,9 +303,10 @@ linear-gradient(rgb(25, 10, 184), transparent) */
 /* #region section 6 */
 
 .section6{
-      position: relative;
-      height: 100vh;
-
+    position: relative;
+    height: 100vh;
+    margin-bottom: 20vh;
+    
 }
 
 .testostuff{
@@ -326,12 +327,12 @@ linear-gradient(rgb(25, 10, 184), transparent) */
     height: 50%;
     background-color: var(--main);
     z-index: 0;
-  }
+}
 
 
-  .topbackgrouns6{
+.topbackgrouns6{
     height: 38%;
-  }
+}
 
 
 .cards6{
@@ -346,5 +347,166 @@ linear-gradient(rgb(25, 10, 184), transparent) */
 
 /* #endregion */
 
+/* #region section 7 */
+
+.section7{
+    margin-top: 30vh;
+    height: 50vh;
+    margin-bottom: 20vh;
+}
+
+.blu{
+    color: var(--main);
+}
+
+.cardsection7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 13px;
+    height: 35vh;
+    width: 25%;
+}
+
+/* #endregion */
+
+
+/* #region section 8 */
+
+.list1{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.list1::before {
+    content: "";
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: 30%;
+    height: 50%;
+    background-color: var(--main);
+    z-index: 0;
+}
+
+
+.list2{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.list2::before {
+    content: "";
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    background-color: var(--main);
+    z-index: 0;
+}
+
+.list3{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.list3::before {
+    content: "";
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: 70%;
+    height: 50%;
+    background-color: var(--main);
+    z-index: 0;
+}
+
+
+.list4{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.list4::before {
+    content: "";
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: 90%;
+    height: 50%;
+    background-color: var(--main);
+    z-index: 0;
+}
+
+
+.list5{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.list5::before {
+    content: "";
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: 60%;
+    height: 50%;
+    background-color: var(--main);
+    z-index: 0;
+}
+
+.paragrafospazio{
+    margin-left: 20vh;
+    margin-bottom: 8vh;
+}
+
+.grey{
+    color: gray;
+}
+
+/* #endregion */
+
+
+/* #region footer */
+
+.footercontainer{
+    height: 80vh;
+    position: relative;
+    background-color: black;
+    z-index: 0;
+}
+
+.footercontainer::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    z-index: 1;
+}
+
+.footercards1{
+    height: 80%;
+    margin-top: 30vh;
+    margin-left: 10vh;
+}
+
+.footercards2{
+    height: 60vh;
+    background: var(--main);
+    z-index: 2;
+}
+
+.ingranaggifooter{
+    height: 10vh;
+}
+
+
+
+/* #endregion */
 
 
